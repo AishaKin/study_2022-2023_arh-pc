@@ -76,34 +76,31 @@ header-includes:
 
 # Выполнение лабораторной работы
 
-	Скачивание и установка TeX Live. Распаковка архива и запуск скрипта install-tl c root правами. (рис. [#fig:fig1])
+	Скачивание и установка TeX Live. Распаковка архива и запуск скрипта install-tl c root правами. (рис. [-@fig:fig1])
 
-![TeX Live](<Изображения>/1.jpg){#fig:fig1 width=70%}
+![TeX Live](image/1.jpg){ #fig:fig1 width=70% }
 
-	Добавление в PATH (рис. [#fig:fig2])
+	Добавление в PATH (рис. [-@fig:fig2])
 
-![PATH](<Изображения>/2.jpg){#fig:fig2 width=70%}
+![PATH](image/2.jpg){#fig:fig2 width=70%}
 
-	Скачивание и установка Pandoc, pandoc-crossref (рис. [#fig:fig3])
+	Скачивание и установка Pandoc, pandoc-crossref (рис. [-@fig:fig3]),(рис. [-@fig:fig4]),(рис. [-@fig:fig5])
 
-![Pandoc](<Изображения>/4.jpg){#fig:fig3 width=70%}
-(рис. [#fig:fig4])
-![Pandoc](<Изображения>/5.jpg){#fig:fig4 width=70%}
-(рис. [#fig:fig5])
-![Pandoc](<Изображения>/6.jpg){#fig:fig5 width=70%}
+![Pandoc](image/4.jpg){#fig:fig3 width=70%}
+![Pandoc](image/5.jpg){#fig:fig4 width=70%}
+![Pandoc](image/6.jpg){#fig:fig5 width=70%}
 
-	Установка Pandoc-crossref (рис. [#fig:fig6])
-![pandoc-crossref](<Изображения>/7.jpg){#fig:fig6 width=70%}
-(рис. [#fig:fig7])
-![pandoc-crossref](<Изображения>/8.jpg){#fig:fig7 width=70%}
-(рис. [#fig:fig8])
-![pandoc-crossref and pandoc](<Изображения>/9.jpg){#fig:fig8 width=70%}
+	Установка Pandoc-crossref (рис. [-@fig:fig6]),(рис. [-@fig:fig7]),(рис. [-@fig:fig8])
 
-	Компиляция шаблона отчета лабораторной работы с использованием Makefile (рис. [#fig:fig9])
-![Компиляция шаблона](<Изображения>/10.jpg){#fig:fig9 width=70%}
+![pandoc-crossref](image/7.jpg){#fig:fig6 width=70%}
+![pandoc-crossref](image/8.jpg){#fig:fig7 width=70%}
+![pandoc-crossref and pandoc](image/9.jpg){#fig:fig8 width=70%}
 
-	Просмотр файла report.md (рис. [#fig:fig10])
-![Report.md](<Изображения>/11.jpg){#fig:fig10 width=70%}
+	Компиляция шаблона отчета лабораторной работы с использованием Makefile (рис. [-@fig:fig9])
+![Компиляция шаблона](image/10.jpg){#fig:fig9 width=70%}
+
+	Просмотр файла report.md (рис. [-@fig:fig10])
+![Report.md](image/11.jpg){#fig:fig10 width=70%}
 
 	Далее создается отчет по 4й лабораторной работе с помощью Markdown.
 	Файл загружается на Github.
